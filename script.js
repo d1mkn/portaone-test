@@ -37,6 +37,10 @@ let textInputEl = document.querySelector("textarea");
 const buttonEl = document.querySelector("button");
 const answerEl = document.querySelector("p");
 
+textInputEl.addEventListener("change", () => {
+  textInputEl.value;
+});
+
 buttonEl.addEventListener("click", () => {
   const answer = firstUniqueChar(textInputEl);
   answerEl.innerHTML = answer;
