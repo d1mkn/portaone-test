@@ -37,7 +37,7 @@ let textInputEl = document.querySelector("textarea");
 const buttonEl = document.querySelector("button");
 const answerEl = document.querySelector("p");
 
-textInputEl.addEventListener("change", () => {
+textInputEl.addEventListener("input", () => {
   textInputEl.value;
 });
 
